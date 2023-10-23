@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Preview Card</title>
+    <style>
+        body{
+            background: rgb(241, 229, 237);
+        }
+        .box{
+            height: 400px;
+            width: 550px;
+            border-radius: 5px;
+            background: white;
+           margin: auto;
+           margin-top: 150px;
+           display: flex;
+        }
+        .img{
+            height: 400px;
+            width: 275.5px;
+            border-radius: 5px 0px 0px 5px;
+        }
+        .pp{
+            color: gray;
+            margin-left: 10px;
+            font-size: x-small;
+            letter-spacing: 4px;
+            position: relative;
+            top: 10px;
+            left: 30px;
+            
+        }
+        .h1{
+            margin-right: 10px;
+        }
+        .h2{
+            color: rgb(51, 77, 51);
+            
+        }
+        .b1{
+            border: none;
+            background: rgb(51, 77, 51);
+            color: white;
+            border-radius: 5px;
+            width: 200px;
+            padding: 10px;
+            
+            
+        }
+        .p2{
+            line-height: 20px;
+        }
+        .div{
+            position: relative;
+            right: 50px;
+            top: 15px;
+        }
+        .div2{
+           display: flex;
+            
+        }
+        .p3{
+            position: relative;
+            color: grey;
+            top: 15px;
+            left: 20px;
+            text-decoration: line-through;
+        }  
+        .img2{
+            position: relative;
+            right: 90px;
+            top: 3px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <img class="img" src="image-product-desktop.jpg" alt="">
+        <p class="pp">PERFUME</p>
+        <div class="div">
+            <h1 class="h1">Gabrielle Essence Eau De Perfume</h1>
+           <p class="p2">A florel,solar and voluptuous interpretation composed by olivier Polge, Perfume-Creator for the House of CHANEL.</p>
+           <div class="div2">
+               <h1 class="h2">$149.99</h1>
+               <p class="p3">$169.99</p>
+           </div>
+           <button class="b1">Add to cart <img class="img2" src="icon-cart.svg" alt=""></button>
+        </div>
+    </div>
+</body>
+</html>

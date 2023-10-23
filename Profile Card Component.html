@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile card Component</title>
+    <style>
+        body{
+            background-image: url(bg-pattern-bottom.svg);
+            background-color: rgb(72, 173, 199);
+            font-family: sans-serif;
+        }
+        .container{
+            height: 350px;
+            width: 350px;
+            background: aliceblue;
+            border-radius: 10px;
+            margin: auto;
+            margin-top: 150px;
+        }
+        .img{
+            border-radius: 10px 10px 0px 0px;
+        }
+        .img2{
+            border-radius: 50%;
+            height: 60px;
+            width: 60px;
+            margin-left: 9em;
+            position: relative;
+            bottom: 34px;
+            
+        }
+        .h1{
+            margin: auto;
+            text-align: center;
+            font-family: sans-serif;
+        }
+        .p{
+            margin: auto;
+            text-align: center;
+            color: gray;
+            font-size: small;
+            position: relative;
+            bottom: 40px;
+           
+        }
+        .div{
+            display: flex;
+            gap: 40px;
+            margin-left: 90px;
+            position: relative;
+            bottom: 30px;
+        }
+        .div2{
+            display: flex;
+            gap: 40px;
+            margin-left: 90px;
+            font-size: x-small;
+            color: gray;
+            position: relative;
+            bottom: 60px;
+        }
+        .div3{
+            display: flex;
+            position: relative;
+            
+            margin: auto;
+            text-align: center;
+            font-family: sans-serif;
+            bottom: 25px;
+        }
+        .h26{
+            right: 110px;
+            position: relative;
+            color: gray;
+
+        }
+        .hr{
+            position: relative;
+            bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img class="img" src="bg-pattern-card.svg" alt="">
+        <img class="img2" src="image-victor.jpg" alt="">
+        <div class="div3">
+            <h4 class="h1">Victor crest</h4>
+            <h4 class="h26">26</h4>
+        </div>
+        <p class="p">London</p>
+        <hr class="hr">
+        <div class="div">
+            <h4>80K</h4>
+            <h4>803k</h4>
+            <h4>1.4k</h4>
+        </div>
+        <div class="div2">
+            <p>Followers</p>
+            <p>Likes</p>
+            <p>Photos</p>
+        </div>
+    </div>
+    
+</body>
+</html>
